@@ -107,3 +107,6 @@ article {
 .footer-container {
     background: url('../images/wov.png') center fixed;
 }
+.sub {
+    margin: auto;
+}
