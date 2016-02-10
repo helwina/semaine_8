@@ -1,0 +1,109 @@
+/*-----------------------------*\
+            media query
+\*-----------------------------*/
+
+@media screen and (max-width:768px) {
+    footer {
+        text-align: center;
+    }
+}
+
+/*-----------------------------*\
+            base
+\*-----------------------------*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header-title, h2 {
+    text-align: center;
+}
+
+article, header, .header-title {
+    display: inline-block;
+}
+
+.container {
+    margin: 15px auto;
+    padding: 10px;
+    max-width: 960px;
+
+}
+
+header, .container {
+    width:100%;
+}
+body {
+    background: url("../images/cheap_diagonal_fabric.png") center fixed;
+}
+
+.footer-container, .header-container, .main-container {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+/*-----------------------------*\
+            header
+\*-----------------------------*/
+
+h1 {
+    text-transform: uppercase;
+}
+
+.header-container {
+    height: 153px;
+    background: url('../images/ignasi_pattern_s.png') center fixed;
+}
+
+header {
+  margin-bottom: -15px;
+    text-align: center;
+}
+
+.header-title {
+    text-align: center;
+}
+
+.image {
+    float: left;
+
+    margin: 0 10px;
+}
+
+/*-----------------------------*\
+         articles
+\*-----------------------------*/
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 5px 15px;
+}
+
+article {
+    width: 33%;
+
+    vertical-align: top;
+}
+
+.main-container {
+    background: url('../images/paisley.png') center fixed;
+}
+
+/*-----------------------------*\
+             footer
+\*-----------------------------*/
+
+.footer-contact {
+    margin-top: 15px;
+    vertical-align: top;
+}
+
+.footer-container {
+    background: url('../images/wov.png') center fixed;
+}
